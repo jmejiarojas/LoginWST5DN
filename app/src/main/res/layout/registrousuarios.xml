@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="4dip">
+
+
+    <ImageView
+        android:id="@+id/imgFotoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/logolibertecitem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/TxtLoginUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TxtLoginUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/TxtNombresUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TxtNombresUsuario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/TxtLoginUsuario"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/TxtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TxtCorreo"
+        android:layout_below="@+id/TxtNombresUsuario"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

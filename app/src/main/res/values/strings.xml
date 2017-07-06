@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gestión de usuarios</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña (opcional)</string>
+    <string name="action_sign_in">Iniciar Sessión</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="error_invalid_email">El correo no es valido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Necesita permisos para leer los correos de los contactos."
+    </string>
+</resources>
